@@ -141,7 +141,8 @@ article{
     text-align: left;
     color: white;
     width: 19vw;
-    height: 8vw
+    background-color: yellowgreen;
+    word-wrap: break-word;
 }
 
 article > h3{

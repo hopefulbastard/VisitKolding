@@ -1,4 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
 /* <!-- HEADER --> */
+
+nav{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 5vw;
+    width: 100vw;
+}
+
+ol{
+    position: absolute;   
+    list-style: none;
+    right: 21vw;
+    bottom: 1.5vw;
+}
+
+li{
+    margin-left: 2.5vw;
+    font-size: 1.5vw;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+#searcher{
+    position: absolute;
+    right: 10vw;
+    top: 2vw;
+    width: 1.5vw;
+    height: 1vw;
+}
+
+#logo{
+    position: absolute;
+    left: 5vw;
+    top: 0.7vw;
+    width: 20vw;
+    height: 3vw;
+}
+
+img{
+    width: 100%;
+}
+
 
 /* <!-- HEADER --> */
 
@@ -19,5 +73,54 @@
 
 
 /* <!-- FOOTER --> */
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: hotpink;
+}
+
+#figuretop{
+    width: 100%;
+    height: 10vw;
+    background-color: rgb(124, 124, 124);
+}
+
+h2{
+    color: ivory;
+}
+
+#figurebot{
+    width: 100%;
+    height: 10vw;
+    background-color: rgb(190, 190, 190);
+}
+
+.item1 { grid-area: a; }
+.item2 { grid-area: b; }
+.item3 { grid-area: c; }
+.item4 { grid-area: d; }
+.item5 { grid-area: e; }
+
+.grid-container {
+    position: absolute;
+    right: 5vw;
+  width: 75vw;  
+  display: grid;
+  grid-template-areas:
+  'a a b c d e';
+  grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67% ;
+  grid-template-rows: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67% ;
+  background-color: #2196F3;
+  padding: 0.5vw;
+}
+
+.grid-container > div {
+  margin-left: 0.5vw;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 2vw;
+}
 
 /* <!-- FOOTER --> */

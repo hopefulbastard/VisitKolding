@@ -1,4 +1,6 @@
 * {
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -6,48 +8,54 @@
 /* <!-- HEADER --> */
 
 img {
-  width: 100%;
+  height: 70px;
 }
 
 nav {
-background-color: #FF9964;
-  position: relative;
-  height: 5vw;
-  width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF9964;
+  height: 100px;
 }
 
-nav > ol {
-  position: absolute;
+nav ul {
   list-style: none;
-  right: 21vw;
-  bottom: 1.5vw;
+  display: flex;
+  align-content: space-between;
 }
 
-li {
-  margin-left: 2.5vw;
-  font-size: 1.5vw;
-  display: inline;
+nav li {
+  font-size: 20px;
+  padding: 0px 20px;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: white
 }
 
 #searcher {
-  position: absolute;
-  right: 10vw;
-  top: 2vw;
-  width: 1.5vw;
-  height: 1vw;
+    color: white;
+}
+
+#searcher [type="submit"]{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#searcher [type="text"]{
+    display: none;
 }
 
 #logo {
-  position: absolute;
-  left: 5vw;
-  top: 0.7vw;
-  width: 20vw;
-  height: 3vw;
+  float: left;
+  padding: 15px;
 }
 
 /* <!-- HEADER --> */
@@ -72,140 +80,124 @@ a {
 
 footer {
   width: 100%;
-  position: absolute;
-  bottom: 0;
 }
 
-#figuretop {
-  width: 100%;
-  height: 14vw;
+#footertop {
+  height: 300px;
   background-color: #6fccd3;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 3fr;
+  grid-template-areas: "a b c d e .";
+  align-content: space-evenly;
+  text-align: center;
 }
 
-h2 {
-  display: block;
-  width: 100%;
-  height: auto;
-  color: ivory;
-}
-
-#figurebot {
-  position: relative;
-  width: 100%;
-  height: 14vw;
-  background-color: #4f14a0;
+.socialicon{
+    font-size: 75px;
+    color: white;
 }
 
 .item1 {
-  grid-area: a;
-  width: 20vw;
-}
-.item2 {
-  grid-area: b;
-}
-.item3 {
-  grid-area: c;
-}
-.item4 {
-  grid-area: d;
-}
-.item5 {
-  grid-area: e;
+    grid-area: a;
+  }
+  .item2 {
+    grid-area: b;
+  }
+  .item3 {
+    grid-area: c;
+  }
+  .item4 {
+    grid-area: d;
+  }
+  .item5 {
+    grid-area: e;
+  }
+
+h2 {
+    padding-left: 50px;
+  font-size: 45px;
+  color: ivory;
 }
 
-.grid-container {
-  position: absolute;
-  top: 4vw;
-  left: 1vw;
-  width: 75vw;
-  height: 10vh;
+#footerbot {
+    color: white;
+  height: 340px;
+  background-color: #4f14a0;
   display: grid;
-  grid-template-areas: "a a b c d e";
-  grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
-  grid-template-rows: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
-  padding: 0.5vw;
+  grid-template-columns: 3fr 2fr 3fr;
+  grid-template-areas: "visitkolding . footerlinks" ;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.grid-container > div {
-  margin-left: 0.5vw;
-  text-align: center;
-  font-size: 2vw;
+#footerbot h3 {
+    font-size: 32px;
+}
+  
+#footerbot p {
+    margin-top: 16px;
 }
 
-.item2,
-.item3,
-.item4,
-.item5 {
-  width: 6vw;
+#visitkolding{
+    padding: 50px;
+    grid-area: visitkolding;
 }
 
-article {
-  position: absolute;
-  top: 4vw;
-  left: 5vw;
-  text-align: left;
-  color: white;
-  width: 19vw;
-  word-wrap: break-word;
+#footerlinks{
+    padding-right: 50px;
+    grid-area: footerlinks;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-article > h3 {
-  font-size: 1.5vw;
+#footerlinks h3{
+    font-size: 18px;
 }
 
-article > p {
-  margin-top: 1vw;
+#footerlinks ul{
+    text-align: center;
 }
 
-#figurebot {
-  position: relative;
+#footerlinks ul li{
+    padding: 10px 0px;
+    list-style-type: none;
 }
 
-figure > section {
-  right: 10vw;
-  top: 2vw;
-  position: absolute;
-}
-
-figure > section > ol {
-  margin-left: 5vw;
-  display: inline-block;
-}
-
-figure > section > ol > h3 {
-  font-size: 1.5vw;
-  color: white;
-}
-
-figure > section > ol > a > li {
-  display: block;
-  margin-top: 1vh;
+#footerlinks a{
+    text-decoration: none;
+    color: white;
 }
 
 #copyrt {
-  position: relative;
-  height: 3vw;
-  width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
   background-color: #FF9964;
 }
 
-#copyrt > h3 {
+#copyrt h3 {
+    padding: 0px 50px;
+    font-size: 13px;
   color: white;
-  position: absolute;
-  top: 1vw;
-  left: 5vw;
 }
 
-#copyrt > section {
-  position: absolute;
-  top: 1vw;
-  right: 15vw;
-}
-
-#copyrt > section > a {
-  margin-left: 3vw;
+#copyrt a {
   color: white;
-  font-size: 1.2vw;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0px 50px;
 }
 
 /* <!-- FOOTER --> */
+
+/* Media screen */
+
+@media screen and (max-width: 1280px){
+    /*Tablet*/
+}
+
+@media screen and (max-width: 800px) {
+    /*Mobile*/
+}

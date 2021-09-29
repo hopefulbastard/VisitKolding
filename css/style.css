@@ -1,58 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-
 
 /* <!-- HEADER --> */
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 
-nav{
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    height: 5vw;
-    width: 100vw;
+nav {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  height: 5vw;
+  width: 100vw;
 }
 
-nav > ol{
-    position: absolute;   
-    list-style: none;
-    right: 21vw;
-    bottom: 1.5vw;
+nav > ol {
+  position: absolute;
+  list-style: none;
+  right: 21vw;
+  bottom: 1.5vw;
 }
 
-li{
-    margin-left: 2.5vw;
-    font-size: 1.5vw;
-    display: inline;
+li {
+  margin-left: 2.5vw;
+  font-size: 1.5vw;
+  display: inline;
 }
 
-a{
-    text-decoration: none;
-    color: grey;
+a {
+  text-decoration: none;
+  color: grey;
 }
 
-#searcher{
-    position: absolute;
-    right: 10vw;
-    top: 2vw;
-    width: 1.5vw;
-    height: 1vw;
+#searcher {
+  position: absolute;
+  right: 10vw;
+  top: 2vw;
+  width: 1.5vw;
+  height: 1vw;
 }
 
-#logo{
-    position: absolute;
-    left: 5vw;
-    top: 0.7vw;
-    width: 20vw;
-    height: 3vw;
+#logo {
+  position: absolute;
+  left: 5vw;
+  top: 0.7vw;
+  width: 20vw;
+  height: 3vw;
 }
-
-
-
 
 /* <!-- HEADER --> */
 
@@ -62,11 +58,9 @@ a{
 
 /* <!-- IMG GRID --> */
 
-
 /* <!-- EVENTS --> */
 
 /* <!-- EVENTS --> */
-
 
 /* <!-- MAPS --> */
 
@@ -76,51 +70,60 @@ a{
 
 /* <!-- FOOTER --> */
 
-footer{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background-color: hotpink;
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: hotpink;
 }
 
-#figuretop{
-    width: 100%;
-    height: 14vw;
-    background-color: #6FCCD3;
+#figuretop {
+  width: 100%;
+  height: 14vw;
+  background-color: #6fccd3;
 }
 
-h2{
-    display: block;
-    width: 100%;
-    height: auto;
-    color: ivory;
+h2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  color: ivory;
 }
 
-#figurebot{
-    position: relative;
-    width: 100%;
-    height: 14vw;
-    background-color: #4F14A0;
+#figurebot {
+  position: relative;
+  width: 100%;
+  height: 14vw;
+  background-color: #4f14a0;
 }
 
-.item1 { grid-area: a; 
-width: 20vw;}
-.item2 { grid-area: b; }
-.item3 { grid-area: c; }
-.item4 { grid-area: d; }
-.item5 { grid-area: e; }
+.item1 {
+  grid-area: a;
+  width: 20vw;
+}
+.item2 {
+  grid-area: b;
+}
+.item3 {
+  grid-area: c;
+}
+.item4 {
+  grid-area: d;
+}
+.item5 {
+  grid-area: e;
+}
 
 .grid-container {
   position: absolute;
   top: 4vw;
   left: 1vw;
-  width: 75vw;  
+  width: 75vw;
   height: 10vh;
   display: grid;
-  grid-template-areas:
-  'a a b c d e';
-  grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67% ;
-  grid-template-rows: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67% ;
+  grid-template-areas: "a a b c d e";
+  grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
+  grid-template-rows: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
   padding: 0.5vw;
 }
 
@@ -130,81 +133,81 @@ width: 20vw;}
   font-size: 2vw;
 }
 
-.item2,.item3,.item4,.item5{
-width: 6vw;
+.item2,
+.item3,
+.item4,
+.item5 {
+  width: 6vw;
 }
 
-article{
-    position: absolute;
-    top: 4vw;
-    left: 5vw;
-    text-align: left;
-    color: white;
-    width: 19vw;
-    background-color: yellowgreen;
-    word-wrap: break-word;
+article {
+  position: absolute;
+  top: 4vw;
+  left: 5vw;
+  text-align: left;
+  color: white;
+  width: 19vw;
+  background-color: yellowgreen;
+  word-wrap: break-word;
 }
 
-article > h3{
-    font-size: 1.5vw;
+article > h3 {
+  font-size: 1.5vw;
 }
 
-article > p{
-    margin-top: 1vw;
+article > p {
+  margin-top: 1vw;
 }
 
-#figurebot{
-    position: relative;
+#figurebot {
+  position: relative;
 }
 
-figure > section{
-    right: 10vw;
-    top: 2vw;
-    position: absolute;
+figure > section {
+  right: 10vw;
+  top: 2vw;
+  position: absolute;
 }
 
-figure > section > ol{
-    margin-left: 5vw;
-    display: inline-block;
+figure > section > ol {
+  margin-left: 5vw;
+  display: inline-block;
 }
 
-figure > section > ol > h3{
-    font-size: 1.5vw;
-    color: white;
+figure > section > ol > h3 {
+  font-size: 1.5vw;
+  color: white;
 }
 
-figure > section > ol > a > li{
-    display: block;
-    margin-top: 1vh;
+figure > section > ol > a > li {
+  display: block;
+  margin-top: 1vh;
 }
 
-#copyrt{
-    position: relative;
-    height: 3vw;
-    width: 100vw;
-    background-color: #FF9964;
+#copyrt {
+  position: relative;
+  height: 3vw;
+  width: 100vw;
+  background-color: #ff9964;
 }
 
-#copyrt > h3{
-    color: white;
-    position: absolute;
-    top: 1vw;
-    left: 5vw;
+#copyrt > h3 {
+  color: white;
+  position: absolute;
+  top: 1vw;
+  left: 5vw;
 }
 
-#copyrt > section{
-    position: absolute;
-    top: 1vw;
-    right: 15vw;
+#copyrt > section {
+  position: absolute;
+  top: 1vw;
+  right: 15vw;
 }
 
-#copyrt > section > a{
-    margin-left: 3vw;
-    color: white;
-    font-size: 1.2vw;
+#copyrt > section > a {
+  margin-left: 3vw;
+  color: white;
+  font-size: 1.2vw;
 }
-
-
-
 
 /* <!-- FOOTER --> */

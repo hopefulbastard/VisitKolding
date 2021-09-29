@@ -49,6 +49,10 @@ nav a {
 	outline: inherit;
 }
 
+#searcher [type="text"]{
+    display: none;
+}
+
 #logo {
   float: left;
   padding: 15px;

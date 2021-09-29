@@ -88,6 +88,11 @@ footer {
   text-align: center;
 }
 
+.socialicon{
+    font-size: 75px;
+    color: white;
+}
+
 .item1 {
     grid-area: a;
   }

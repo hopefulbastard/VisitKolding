@@ -10,8 +10,8 @@ img {
 }
 
 nav {
+background-color: #FF9964;
   position: relative;
-  background-color: rgb(255, 255, 255);
   height: 5vw;
   width: 100vw;
 }
@@ -31,7 +31,7 @@ li {
 
 a {
   text-decoration: none;
-  color: grey;
+  color: white
 }
 
 #searcher {
@@ -74,7 +74,6 @@ footer {
   width: 100%;
   position: absolute;
   bottom: 0;
-  background-color: hotpink;
 }
 
 #figuretop {
@@ -147,7 +146,6 @@ article {
   text-align: left;
   color: white;
   width: 19vw;
-  background-color: yellowgreen;
   word-wrap: break-word;
 }
 
@@ -188,7 +186,7 @@ figure > section > ol > a > li {
   position: relative;
   height: 3vw;
   width: 100vw;
-  background-color: #ff9964;
+  background-color: #FF9964;
 }
 
 #copyrt > h3 {

@@ -1,0 +1,50 @@
+img {
+    height: 70px;
+  }
+  
+  nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #FF9964;
+    height: 100px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-content: space-between;
+  }
+  
+  nav li {
+    font-size: 20px;
+    padding: 0px 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white
+  }
+  
+  #searcher {
+      color: white;
+  }
+  
+  #searcher [type="submit"]{
+      background: none;
+      color: inherit;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+  }
+  
+  #searcher [type="text"]{
+      display: none;
+  }
+  
+  #logo {
+    float: left;
+    padding: 15px;
+  }

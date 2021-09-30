@@ -4,6 +4,56 @@
 
 /* <!-- IMG GRID --> */
 
+#indexgrid{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px 250px;
+    gap: 20px;
+    grid-template-areas: 
+    "indexgrid1 indexgrid1 indexgrid2 indexgrid3 indexgrid3"
+    "indexgrid1 indexgrid1 indexgrid4 indexgrid5 indexgrid5"
+    "indexgrid6 indexgrid7 indexgrid7 indexgrid5 indexgrid5"
+    "indexgrid6 indexgrid8 indexgrid9 indexgrid9 indexgrid10"
+    ;
+}
+
+.indexgridtext{
+    display: grid;
+    align-content: flex-end;
+}
+
+#indexgrid a{
+    text-decoration: none;
+}
+
+#indexgrid h2{
+    padding: 0px;
+    font-size: 25px;
+}
+
+#indexgrid p{
+    color: white;
+    font-size: 20px;
+}
+
+.indexgrid{
+    background-image: url(/img/banegård.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+#indexgrid1{grid-area: indexgrid1;}
+#indexgrid2{grid-area: indexgrid2;}
+#indexgrid3{grid-area: indexgrid3;}
+#indexgrid4{grid-area: indexgrid4;}
+#indexgrid5{grid-area: indexgrid5;}
+#indexgrid6{grid-area: indexgrid6;}
+#indexgrid7{grid-area: indexgrid7;}
+#indexgrid8{grid-area: indexgrid8;}
+#indexgrid9{grid-area: indexgrid9;}
+#indexgrid10{grid-area: indexgrid10;}
+
 /* <!-- IMG GRID --> */
 
 /* <!-- EVENTS --> */

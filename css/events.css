@@ -1,3 +1,15 @@
 @import url(/css/global.css);
 @import url(/css/nav.css);
 @import url(/css/footer.css);
+
+#headerbackgroundimage{
+    height: 560px;
+    background-image: url(/img/Billedmateriale/havn_træskib.jpg);
+    background-size: cover;
+    }
+    
+#headertext{
+    color: black;
+    padding: 400px 50px 0px;
+} 
+    

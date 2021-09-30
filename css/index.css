@@ -18,9 +18,8 @@
     ;
 }
 
-.indexgridtext{
-    display: grid;
-    align-content: flex-end;
+#indexgrid div{
+    height: 100%;
 }
 
 #indexgrid a{
@@ -32,13 +31,21 @@
     font-size: 25px;
 }
 
+#indexgrid2 h2, #indexgrid4 h2, #indexgrid8 h2, #indexgrid10 h2{
+    font-size: 18px;
+} 
+
 #indexgrid p{
     color: white;
     font-size: 20px;
 }
 
+#indexgrid2 p, #indexgrid4 p, #indexgrid8 p, #indexgrid10 p{
+    font-size: 15px;
+} 
+
 .indexgrid{
-    background-image: url(/img/Billedmateriale/banegård.jpg);
+    background-image: url(/img/Billedmateriale/banegård.jpg);
     background-position: center top;
     background-size: cover;
 }

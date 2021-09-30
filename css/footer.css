@@ -1,0 +1,111 @@
+footer {
+    width: 100%;
+  }
+  
+  #footertop {
+    height: 300px;
+    background-color: #6fccd3;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 3fr;
+    grid-template-areas: "a b c d e .";
+    align-content: space-evenly;
+    text-align: center;
+  }
+  
+  .socialicon{
+      font-size: 75px;
+      color: white;
+  }
+  
+  .item1 {
+      grid-area: a;
+    }
+    .item2 {
+      grid-area: b;
+    }
+    .item3 {
+      grid-area: c;
+    }
+    .item4 {
+      grid-area: d;
+    }
+    .item5 {
+      grid-area: e;
+    }
+  
+  h2 {
+      padding-left: 50px;
+    font-size: 45px;
+    color: ivory;
+  }
+  
+  #footerbot {
+      color: white;
+    height: 340px;
+    background-color: #4f14a0;
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
+    grid-template-areas: "visitkolding . footerlinks" ;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #footerbot h3 {
+      font-size: 32px;
+  }
+    
+  #footerbot p {
+      margin-top: 16px;
+  }
+  
+  #visitkolding{
+      padding: 50px;
+      grid-area: visitkolding;
+  }
+  
+  #footerlinks{
+      padding-right: 50px;
+      grid-area: footerlinks;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  #footerlinks h3{
+      font-size: 18px;
+  }
+  
+  #footerlinks ul{
+      text-align: center;
+  }
+  
+  #footerlinks ul li{
+      padding: 10px 0px;
+      list-style-type: none;
+  }
+  
+  #footerlinks a{
+      text-decoration: none;
+      color: white;
+  }
+  
+  #copyrt {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 80px;
+    background-color: #FF9964;
+  }
+  
+  #copyrt h3 {
+      padding: 0px 50px;
+      font-size: 13px;
+    color: white;
+  }
+  
+  #copyrt a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 50px;
+  }

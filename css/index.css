@@ -1,0 +1,25 @@
+@import url(global.css);
+@import url(nav.css);
+@import url(footer.css);
+
+/* <!-- IMG GRID --> */
+
+/* <!-- IMG GRID --> */
+
+/* <!-- EVENTS --> */
+
+/* <!-- EVENTS --> */
+
+/* <!-- MAPS --> */
+
+/* <!-- MAPS --> */
+
+/* Media screen */
+
+@media screen and (max-width: 1280px){
+    /*Tablet*/
+}
+
+@media screen and (max-width: 800px) {
+    /*Mobile*/
+}

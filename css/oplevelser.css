@@ -123,6 +123,11 @@ html {
     color: white;
   }
 
+  .grid-containercategories > div > {
+    
+    color: white;
+  }
+
 
   /* <!-- CATEGORIES --> */
 
@@ -195,7 +200,6 @@ html {
   .grid-containerlist > div > h2 {
    color: rgb(0, 0, 0);
    margin: 0;
-   margin-top: 3vw;
    text-align: left;
    padding: 0;
   }

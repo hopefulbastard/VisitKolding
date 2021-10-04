@@ -171,6 +171,65 @@
     background-color: salmon;
 }
 
+#Udforsk_Kolding_Box{
+    max-width: 1630px;
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2 minmax(200px,1fr));
+    grid-template-areas: 
+    "Udforsk_articlebox figure1 figure2 figure3"
+    "Udforsk_articlebox figure4 figure5 figure6";
+    gap: 1.5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  #Udforsk_articlebox{
+    grid-area: Udforsk_articlebox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4vw;
+    width: 25vw;
+  }
+  #Udforsk_articlebox h2{
+    font-size: 2vw;
+    margin-bottom: 1.5vw;
+  }
+  #Udforsk_articlebox p{
+    font-size: 1.3vw;
+  }
+  #Udforsk_Kolding_Box figure {
+    margin-bottom: 1.5vw;
+  }
+  #Udforsk_Kolding_Box img {
+    margin-bottom: 1.5vw;
+    background-color: salmon;
+  }
+  #figure1 {
+    grid-area: figure1;
+    
+  }
+  #figure2 {
+    grid-area: figure2;
+  }
+  #figure3 {
+    grid-area: figure3;
+  }
+  #figure4 {
+    grid-area: figure4;
+  }
+  #figure5 {
+    grid-area: figure5;
+  }
+  #figure6 {
+    grid-area: figure6;
+  }
+  figure h3 {
+    text-align: center;
+    font-size: 1.3vw;
+    padding-top: 0.3vw;
+  }
 /* <!-- EVENTS --> */
 
 /* <!-- MAPS --> */

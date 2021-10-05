@@ -53,6 +53,11 @@ header {
   background-color: #441dac;
   color: white;
 }
+
+#text1 {
+  display: block;
+}
+
 #img2 {
   grid-area: img2;
 }

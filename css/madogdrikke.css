@@ -30,7 +30,7 @@ header {
 #img-art-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: minmax(200px, 500px) minmax(200px, 500px);
+  grid-template-rows: minmax(500px);
   grid-template-areas:
     "img1 art1"
     "art2 img2";

@@ -31,22 +31,22 @@
     word-break: break-all;
 }
 
-.item1 {
+.item1u {
     grid-area: q;
   }
-  .item2 {
+  .item2u {
     grid-area: w;
   }
-  .item3 {
+  .item3u {
     grid-area: e;
   }
-  .item4 {
+  .item4u {
     grid-area: r;
   }
-  .item5 {
+  .item5u {
     grid-area: t;
   }
-  .item6 {
+  .item6u {
     grid-area: y;
   }
   

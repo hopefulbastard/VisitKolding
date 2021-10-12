@@ -184,7 +184,7 @@
     "figure4 figure5 figure6"
     ;
     gap: 25px;
-    padding: 25px;
+    padding: 30px;
 }
 
 #udforskkoldinglinks figure{
@@ -195,9 +195,18 @@
 }
 
 #udforskkolding img{
-    height: 150px;
+    height: 250px;
     width: 100%;
     object-fit: cover;
+}
+
+#udforskkolding img:hover{
+    opacity: .5;
+    transition: .3s ease-in-out;
+}
+
+#udforskkolding h3{
+    padding: 25px;
 }
 
 #figure1{grid-area: figure1;}

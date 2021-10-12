@@ -23,6 +23,7 @@
 }
 
 .indexgridtext{
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 25px;
     position: absolute;
     bottom: 0;
@@ -59,12 +60,16 @@
 }
 
 .indexgrid:hover{
-    background-image: url("/VisitKolding/img/Billedmateriale/banegård.jpg");
+    background-image: url("");
     opacity: .5;
     transition: .3s ease-in-out;
 }
 
-#indexgrid1{grid-area: indexgrid1;}
+#indexgrid1{
+    grid-area: indexgrid1;
+    background-image: url(../img/Billedmateriale/grafiskbygning.jpg);
+}
+
 #indexgrid2{grid-area: indexgrid2;}
 #indexgrid3{grid-area: indexgrid3;}
 #indexgrid4{grid-area: indexgrid4;}

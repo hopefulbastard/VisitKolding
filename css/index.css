@@ -90,7 +90,10 @@
     grid-area: indexgrid7;
     background-image: url(../img/Billedmateriale/Foreningsliv/svømning.jpg);   
 }
-#indexgrid8{grid-area: indexgrid8;}
+#indexgrid8{
+    grid-area: indexgrid8;
+    background-image: url(../img/Billedmateriale/lystbådhavn2.jpg);
+}
 #indexgrid9{
     grid-area: indexgrid9;
     background-image: url(../img/Billedmateriale/havn_træskib.jpg);

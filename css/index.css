@@ -53,10 +53,8 @@
 } 
 
 .indexgrid{
-    background-image: url("/VisitKolding/img/Billedmateriale/banegård.jpg");
     background-position: center top;
     background-size: cover;
-    
 }
 
 .indexgrid:hover{
@@ -70,14 +68,29 @@
     background-image: url(../img/Billedmateriale/grafiskbygning.jpg);
 }
 
-#indexgrid2{grid-area: indexgrid2;}
-#indexgrid3{grid-area: indexgrid3;}
-#indexgrid4{grid-area: indexgrid4;}
-#indexgrid5{grid-area: indexgrid5;}
-#indexgrid6{grid-area: indexgrid6;}
+#indexgrid2{
+    grid-area: indexgrid2;
+}
+#indexgrid3{
+    grid-area: indexgrid3;
+}
+#indexgrid4{
+    grid-area: indexgrid4;
+}
+#indexgrid5{
+    grid-area: indexgrid5;
+    background-image: url(../img/Billedmateriale/cafe2.jpg);
+}
+#indexgrid6{
+    grid-area: indexgrid6;
+    background-image: url(../img/Billedmateriale/børnehave.jpg);
+}
 #indexgrid7{grid-area: indexgrid7;}
 #indexgrid8{grid-area: indexgrid8;}
-#indexgrid9{grid-area: indexgrid9;}
+#indexgrid9{
+    grid-area: indexgrid9;
+    background-image: url(../img/Billedmateriale/havn_træskib.jpg);
+}
 #indexgrid10{grid-area: indexgrid10;}
 
 /* <!-- IMG GRID --> */

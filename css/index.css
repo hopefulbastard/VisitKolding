@@ -71,6 +71,8 @@
 
 #indexgrid2{
     grid-area: indexgrid2;
+    background-image: url(../img/Billedmateriale/havn_træskib.jpg);
+    background-position-y: center;
 }
 #indexgrid3{
     grid-area: indexgrid3;
@@ -101,10 +103,13 @@
 }
 #indexgrid9{
     grid-area: indexgrid9;
-    background-image: url(../img/Billedmateriale/havn_træskib.jpg);
+    background-image: url(../img/Billedmateriale/torv.jpg);
     background-position-y: center;
 }
-#indexgrid10{grid-area: indexgrid10;}
+#indexgrid10{
+    grid-area: indexgrid10;
+    background-image: url(../img/Billedmateriale/trafik.jpg);
+}
 
 /* <!-- IMG GRID --> */
 

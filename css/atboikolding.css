@@ -6,7 +6,7 @@ header {
   display: flex;
   align-items: flex-end;
   min-height: 560px;
-  background-image: url(../img/Billedmateriale/grafiskbygning.jpg);
+  background-image: url(../img/Billedmateriale/ntteliv.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -28,6 +28,7 @@ header {
 }
 
 #img-art-grid {
+  background-color: #441dac;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: minmax(500px);
@@ -37,8 +38,9 @@ header {
 }
 
 #img-art-grid img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  margin: auto;
   object-fit: cover;
 }
 

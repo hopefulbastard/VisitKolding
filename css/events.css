@@ -1,12 +1,12 @@
-@import url(/css/global.css);
-@import url(/css/nav.css);
-@import url(/css/footer.css);
+@import url(global.css);
+@import url(nav.css);
+@import url(footer.css);
 
 header {
   display: flex;
   align-items: flex-end;
   min-height: 560px;
-  background-image: url(/img/Billedmateriale/havn_træskib.jpg);
+  background-image: url("../img/Billedmateriale/havn_træskib.jpg");
   background-size: cover;
   background-position: center center;
 }

@@ -6,7 +6,7 @@ header {
   display: flex;
   align-items: flex-end;
   min-height: 560px;
-  background-image: url(../img/Billedmateriale/ntteliv.jpg);
+  background-image: url(../img/Billedmateriale/designskolen.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -28,13 +28,14 @@ header {
 }
 
 #img-art-grid {
-  background-color: #441dac;
+    background-color: #441dac;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: minmax(500px);
   grid-template-areas:
     "img1 art1"
-    "art2 img2";
+    "art2 img2"
+    "img3 art3";
 }
 
 #img-art-grid img {
@@ -70,4 +71,15 @@ header {
   padding-top: 80px;
   background-color: #441dac;
   color: white;
+}
+
+#img3{grid-area: img3;}
+
+#art3{
+    grid-area: art3;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    background-color: #441dac;
+    color: white;
 }

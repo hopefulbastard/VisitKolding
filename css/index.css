@@ -73,6 +73,8 @@
 }
 #indexgrid3{
     grid-area: indexgrid3;
+    background-image: url(../img/Billedmateriale/designskolen.jpg);
+    background-position-y: center;
 }
 #indexgrid4{
     grid-area: indexgrid4;
@@ -89,6 +91,7 @@
 #indexgrid7{
     grid-area: indexgrid7;
     background-image: url(../img/Billedmateriale/Foreningsliv/svømning.jpg);   
+    background-position-y: center;
 }
 #indexgrid8{
     grid-area: indexgrid8;
@@ -97,6 +100,7 @@
 #indexgrid9{
     grid-area: indexgrid9;
     background-image: url(../img/Billedmateriale/havn_træskib.jpg);
+    background-position-y: center;
 }
 #indexgrid10{grid-area: indexgrid10;}
 

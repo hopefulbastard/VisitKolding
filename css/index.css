@@ -85,7 +85,10 @@
     grid-area: indexgrid6;
     background-image: url(../img/Billedmateriale/børnehave.jpg);
 }
-#indexgrid7{grid-area: indexgrid7;}
+#indexgrid7{
+    grid-area: indexgrid7;
+    background-image: url(../img/Billedmateriale/Foreningsliv/svømning.jpg);   
+}
 #indexgrid8{grid-area: indexgrid8;}
 #indexgrid9{
     grid-area: indexgrid9;

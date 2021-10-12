@@ -1,0 +1,99 @@
+@import url(global.css);
+@import url(nav.css);
+@import url(footer.css);
+
+header {
+  display: flex;
+  align-items: flex-end;
+  min-height: 560px;
+  background-image: url(../img/Billedmateriale/børnehave.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#headertext {
+  background-color: white;
+  color: black;
+  margin-left: 90px;
+  padding-left: 70px;
+  padding-right: 300px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 40px;
+}
+#text {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+#grid {
+    color: white;
+    background-color: #4f14a0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: minmax(500px);
+  font-size: 18px;
+  column-gap: 50px;
+  padding: 100px 50px;
+  grid-template-areas:
+    "text1 text2 text3"
+}
+
+#text1{
+    grid-area: text1;
+}
+
+#text2{
+    grid-area: text2;
+}
+
+#text3{
+    grid-area: text3;
+}
+
+#img1 {
+  grid-area: img1;
+}
+#art1 {
+  grid-area: art1;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 80px;
+  background-color: #441dac;
+  color: white;
+}
+
+#text1 {
+  display: block;
+}
+
+#img2 {
+  grid-area: img2;
+}
+
+#textsection{
+    padding: 50px;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas: "column1 column2";
+}
+
+#column1{
+    grid-area: column1;
+}
+
+#column2{
+    grid-area: column2;
+}
+
+#textsection img{
+    padding: 20px 0px;
+    width: 100%;
+}
+
+#textsection p{
+    padding: 10px 0px;
+}

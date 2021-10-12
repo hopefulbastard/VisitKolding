@@ -65,7 +65,8 @@
 
 #indexgrid1{
     grid-area: indexgrid1;
-    background-image: url(../img/Billedmateriale/grafiskbygning.jpg);
+    background-image: url(../img/Billedmateriale/designskolen.jpg);
+    background-position-y: center;
 }
 
 #indexgrid2{
@@ -73,8 +74,9 @@
 }
 #indexgrid3{
     grid-area: indexgrid3;
-    background-image: url(../img/Billedmateriale/designskolen.jpg);
+    background-image: url(../img/Billedmateriale/grafiskbygning.jpg);
     background-position-y: center;
+
 }
 #indexgrid4{
     grid-area: indexgrid4;
@@ -82,11 +84,11 @@
 }
 #indexgrid5{
     grid-area: indexgrid5;
-    background-image: url(../img/Billedmateriale/shopping1.jpg);
+    background-image: url(../img/Billedmateriale/ntteliv.jpg);
 }
 #indexgrid6{
     grid-area: indexgrid6;
-    background-image: url(../img/Billedmateriale/børnehave.jpg);
+    background-image: url(../img/Billedmateriale/cafe2.jpg);
 }
 #indexgrid7{
     grid-area: indexgrid7;

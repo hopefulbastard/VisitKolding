@@ -18,8 +18,14 @@
     ;
 }
 
-#indexgrid div{
-    height: 100%;
+.indexgrid{
+    position: relative;
+}
+
+.indexgridtext{
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
 }
 
 #indexgrid a{
@@ -27,6 +33,7 @@
 }
 
 #indexgrid h2{
+    color: white;
     padding: 0px;
     font-size: 25px;
 }
@@ -45,9 +52,16 @@
 } 
 
 .indexgrid{
-    background-image: url(/img/Billedmateriale/banegård.jpg);
+    background-image: url("/VisitKolding/img/Billedmateriale/banegård.jpg");
     background-position: center top;
     background-size: cover;
+    
+}
+
+.indexgrid:hover{
+    background-image: url("/VisitKolding/img/Billedmateriale/banegård.jpg");
+    opacity: .5;
+    transition: .3s ease-in-out;
 }
 
 #indexgrid1{grid-area: indexgrid1;}

@@ -76,6 +76,7 @@
 }
 #indexgrid4{
     grid-area: indexgrid4;
+    background-image: url(../img/Billedmateriale/geografiskhave2.jpg);
 }
 #indexgrid5{
     grid-area: indexgrid5;

@@ -262,6 +262,10 @@
         ;
     }
 
+    .indexgridtext{
+        padding: 15px 9px;
+    }
+
     #indexgrid p{
         display: none;
     }

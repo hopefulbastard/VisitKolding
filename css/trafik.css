@@ -96,3 +96,81 @@ header {
 #textsection p {
   padding: 10px 0px;
 }
+
+@media screen and (min-width: 990px) {
+  #img2{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 990px) {
+
+  #img1{
+    display: none;
+  }
+
+  #img2{
+    display: block;
+    width: 100%;
+  }
+  
+  #headertext {
+    margin: 0px auto;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  #grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "text1"
+      "text2"
+      "text3"; 
+  }
+
+  #grid div{
+    padding: 20px 0px;
+  }
+
+  #textsection{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: 
+    "column1 column2"
+    ;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  #headertext {
+    text-align: center;
+    padding: 30px 60px 15px;
+    font-size: 40px;
+    margin: 0px auto;
+  }
+  
+  #textsection{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "column2"
+  "column1"
+  ;
+  padding: 0px;
+}
+
+#textsection img{
+  width: 100%;
+  padding: 0px;
+}
+
+#column1{
+  padding: 50px;
+}
+  
+}

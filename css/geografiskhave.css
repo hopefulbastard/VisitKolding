@@ -41,3 +41,34 @@ header {
 #pagetext p{
     padding: 15px 0px;
 }
+
+/*Media screen start*/
+
+@media screen and (max-width: 990px) {
+  
+  /*tablet*/
+  
+  #headertext {
+    margin: 0px auto;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  /*mobile*/
+
+  #headertext {
+    text-align: center;
+    padding: 30px 60px 15px;
+    font-size: 40px;
+    margin: 0px auto;
+  }
+  
+}
+
+/*Media screen end*/

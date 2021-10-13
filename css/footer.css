@@ -5,34 +5,21 @@ footer {
   #footertop {
     height: 300px;
     background-color: #6fccd3;
-    display: grid;
-    grid-template-columns: 3fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 3fr;
-    grid-template-areas: "a . b . c . d . e .";
-    justify-content: center;
+    display: flex;
     align-items: center;
-    
+    justify-content: space-between;
+  }
+
+  #footersocials{
+    padding-right: 50px;
   }
   
   .socialicon{
+    padding: 0px 25px;
+    text-align: center;
       font-size: 75px;
       color: white;
   }
-  
-  .item1 {
-      grid-area: a;
-    }
-    .item2 {
-      grid-area: b;
-    }
-    .item3 {
-      grid-area: c;
-    }
-    .item4 {
-      grid-area: d;
-    }
-    .item5 {
-      grid-area: e;
-    }
   
   footer h2 {
     padding-left: 50px;
@@ -41,15 +28,24 @@ footer {
   }
   
   #footerbot {
-      color: white;
+    color: white;
     height: 340px;
     background-color: #4f14a0;
     display: grid;
     grid-template-columns: 3fr 2fr 3fr;
     grid-template-areas: "visitkolding . footerlinks" ;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
+
+  #footersocials{
+    display: flex;
+  }
+
+  #item2{grid-area: item2;}
+  #item3{grid-area: item3;}
+  #item4{grid-area: item4}
+  #item5{grid-area: item5;}
   
   #footerbot h3 {
       font-size: 32px;
@@ -109,4 +105,33 @@ footer {
     font-size: 13px;
     font-weight: bold;
     padding: 0px 50px;
+  }
+
+  @media screen and (max-width: 990px) {
+    #footertop{
+      justify-content: space-evenly;
+      flex-direction: column;
+    }
+
+    footer h2{
+      padding: 0px;
+    }
+
+    #footersocials{
+      padding-right: 0px;
+    }
+    
+  }
+
+  @media screen and (max-width: 500px) {
+    #footersocials{
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: 
+      "item2 item3"
+      "item4 item5";
+      gap: 20px;
+    }
+    
   }

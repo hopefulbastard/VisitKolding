@@ -2,6 +2,7 @@
     max-width: 400px;
     min-width: 200px;
     width: 100%;
+
   }
   
   nav {
@@ -10,7 +11,7 @@
       position:fixed;
       width: 100%;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
       background-color: #FF9964;
     height: 100px;
@@ -57,6 +58,7 @@
   #logo {
     float: left;
     padding: 15px;
+    padding-left: 50px;
   }
 
   #dropdown{

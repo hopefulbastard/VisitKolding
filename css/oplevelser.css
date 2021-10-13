@@ -1,3 +1,249 @@
+
+img{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* <!--BIG IMG--> */
+  .item1 {
+    grid-area: a;
+  }
+  .item2 {
+    grid-area: b;
+  }
+  .item3 {
+    grid-area: c;
+  }
+  .item4 {
+    grid-area: d;
+  }
+  .item5 {
+    grid-area: e;
+  }
+  .item6 {
+    grid-area: f;
+  }
+  
+  .grid-containerexperience {
+      margin: 0 1vw;
+    display: grid;
+    grid-template-areas: 'a a b b'
+                         'c d e f';
+                         grid-column: 25% 25% 25% 25%;
+    grid-gap: 0.5vw;
+    padding: 1vw;
+  }
+  
+  .grid-containerexperience > div {
+    transition: 500ms ease-in-out;
+      position: relative;
+    background-color: rgba(153, 153, 153, 0.8);
+    text-align: center;
+    max-width: 50vw;
+    max-height: 20vw;
+  }
+
+  .grid-containerexperience > div:hover {
+    transform: scale(1.01);
+  }
+
+  h1{
+      font-size: 3vw;
+      margin-left: 2vw;
+  }
+
+  h6{
+      
+    transition: 500ms ease-in-out;
+      position: absolute;
+      font-size: 2vw;
+      bottom: 1vw;
+      left: 1vw;
+      opacity: 0;
+  }
+
+  .grid-containerexperience > div:hover h6{
+     opacity: 1;
+     color: white;
+     text-shadow: rgba(0, 0, 0, 0.35) 0.1vw 0.1vw;
+  }
+  
+  /* <!--BIG IMG--> */
+
+
+  /* <!-- CATEGORIES --> */
+  .item7 {
+    grid-area: h;
+    background-color: tomato;
+  }
+  .item8 {
+    grid-area: j;
+    background-color: rgb(0, 162, 0);
+  }
+  .item9 {
+    grid-area: k;
+    background-color: rgb(255, 40, 219);
+  }
+  .item10 {
+    grid-area: l;
+    background-color: rgb(46, 134, 248);
+  }
+  .item11 {
+    grid-area: m;
+    background-color: brown;
+  }
+  .item12 {
+    grid-area: n;
+    background-color: rgb(255, 183, 0);
+  }
+  
+  .grid-containercategories {
+      margin: 0 1vw;
+    display: grid;
+    grid-template-areas: "h j k l m n";
+                         grid-column: 25% 25% 25% 25%;
+    grid-gap: 1vw;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .grid-containercategories > div {
+    transition: 500ms ease-in-out;
+    text-align: center;
+    font-size: 7vw;
+    width: 8vw;
+    height: 8vw;
+    color: white;
+  }
+  .grid-containercategories > div > a{
+    
+    color: white;
+  }
+
+  .grid-containercategories > div > {
+    
+    color: white;
+  }
+
+
+  /* <!-- CATEGORIES --> */
+
+  
+  /* <!-- CATEGORIESTINY --> */
+  .item7 {
+    grid-area: h;
+    background-color: tomato;
+  }
+  .item8 {
+    grid-area: j;
+    background-color: rgb(0, 162, 0);
+  }
+  .item9 {
+    grid-area: k;
+    background-color: rgb(255, 40, 219);
+  }
+  .item10 {
+    grid-area: l;
+    background-color: rgb(46, 134, 248);
+  }
+  .item11 {
+    grid-area: m;
+    background-color: brown;
+  }
+  .item12 {
+    grid-area: n;
+    background-color: rgb(255, 183, 0);
+  }
+  
+  .grid-containercategoriestiny {
+    display: grid;
+    grid-template-areas: "h j k l m n";
+    width: 60%;
+    margin: auto;
+  }
+  
+  .grid-containercategoriestiny > div {
+    transition: 500ms ease-in-out;
+    text-align: center;
+    font-size: 2vw;
+    width: 2vw;
+    height: 2vw;
+    color: white;
+  }
+  .grid-containercategoriestiny > div > a{
+    
+    color: white;
+  }
+
+
+  /* <!-- CATEGORIESTINY --> */
+ 
+  .grid-containerlist {
+    display: grid;
+    grid-template-columns: 25% 37.5% 37.5%;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-bottom: 2vw;
+  }
+  
+  .grid-containerlist > div {
+    position: relative;
+    width: 1fr;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5vw;
+  }
+
+  .grid-containerlist > div > h2 {
+   color: rgb(0, 0, 0);
+   text-align: left;
+  }
+
+  .grid-containerlist > div > article > h3 {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    margin-top: 2vw;
+    font-size: 3.5vw;
+    text-align: center;
+    padding: 0;
+   }
+
+   .grid-containerlist > div > article > p {
+     position: absolute;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0;
+    bottom: 1vw;
+   }
+
+   .grid-containerlist > div > ol{
+    position: absolute;
+    bottom: 0;
+  }
+
+  .grid-containerlist > div > ol > li {
+    margin-top: 1.2vw;
+    color: rgb(61, 61, 61);
+    text-align: left;
+  }
+
+  .grid-containerlist > div > ol > li:hover {
+    transition: 1000ms ease-in-out;
+    color: rgb(133, 133, 133);
+    transform: scale(1.01);
+  }
+
+  .grid-containerlist > div > article > p {
+  }
+
+
 @import url(global.css);
 @import url(nav.css);
 @import url(footer.css);
+

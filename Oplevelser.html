@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="css/oplevelser.css">
+    <script>
+        function myFunction(x) {
+          x.classList.toggle("fa-chevron-down");
+        }
+        </script>
     <script src="https://kit.fontawesome.com/7c99c3d6dc.js" crossorigin="anonymous"></script>
     <title>Oplevelser</title>
     <link rel="shortcut icon" href="img/Billedmateriale/favicon.png" type="image/x-icon">
@@ -36,9 +41,9 @@
   
         <div id="dropdown">
             <ul>
-                <li id="dropdownbutton">
+                <li>
                     <input type="checkbox" id="navitem1" name="navinputs" />
-      <label for="navitem1"><i class="fas fa-bars"></i></label>
+      <label for="navitem1"><i id="dropdownbutton" onclick="myFunction(this)" class="fas fa-bars"></i></i></label>
                     <ul id="dropdownmenu">
                         <a href="index.html">Forside</a>
                         <a class="here" href="Oplevelser.html">Oplevelser</a>

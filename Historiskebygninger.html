@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/historiskebygninger.css">
     <link rel="shortcut icon" href="img/Billedmateriale/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script>
+        function myFunction(x) {
+          x.classList.toggle("fa-chevron-down");
+        }
+        </script>
 </head>
 <body>
 
@@ -36,9 +41,9 @@
   
         <div id="dropdown">
             <ul>
-                <li id="dropdownbutton">
+                <li>
                     <input type="checkbox" id="navitem1" name="navinputs" />
-      <label for="navitem1"><i class="fas fa-bars"></i></label>
+      <label for="navitem1"><i id="dropdownbutton" onclick="myFunction(this)" class="fas fa-bars"></i></i></label>
                     <ul id="dropdownmenu">
                         <a href="index.html">Forside</a>
                         <a href="Oplevelser.html">Oplevelser</a>

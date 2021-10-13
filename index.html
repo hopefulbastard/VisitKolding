@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.4/css/all.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="img/Billedmateriale/favicon.png" type="image/x-icon">
+    <script>
+        function myFunction(x) {
+          x.classList.toggle("fa-chevron-down");
+        }
+        </script>
     <title>VisitKolding</title>
 </head>
 <body>
@@ -34,9 +39,9 @@
 
         <div id="dropdown">
             <ul>
-                <li id="dropdownbutton">
+                <li>
                     <input type="checkbox" id="navitem1" name="navinputs" />
-      <label for="navitem1"><i class="fas fa-bars"></i></label>
+      <label for="navitem1"><i id="dropdownbutton" onclick="myFunction(this)" class="fas fa-bars"></i></i></label>
                     <ul id="dropdownmenu">
                         <a class ="here" href="index.html">Forside</a>
                         <a href="Oplevelser.html">Oplevelser</a>

@@ -1,9 +1,5 @@
-/* img {
-    height: 70px;
-  } Du kan ikke bruget 70px på et globalt img tag */
-  
-  img{
-    width: 100%;
+  #logo img{
+    height: 75px;
   }
   
   nav {

@@ -1,12 +1,12 @@
-@import url(/css/global.css);
-@import url(/css/nav.css);
-@import url(/css/footer.css);
+@import url(global.css);
+@import url(nav.css);
+@import url(footer.css);
 
 header {
   display: flex;
   align-items: flex-end;
   min-height: 560px;
-  background-image: url(/img/Billedmateriale/havn_træskib.jpg);
+  background-image: url("../img/Billedmateriale/havn_træskib.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -47,10 +47,9 @@ header {
 }
 #art1 {
   grid-area: art1;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 80px;
   background-color: #441dac;
   color: white;
 }
@@ -59,10 +58,12 @@ header {
 }
 #art2 {
   grid-area: art2;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 80px;
   background-color: #441dac;
   color: white;
+}
+#text1 {
+  display: block;
 }

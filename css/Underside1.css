@@ -21,7 +21,11 @@
     left: 4vw;
 }
 
-#articlewide > p{
+#articlewide > div {
+  background-color: cyan;
+}
+
+#articlewide > div > p{
     width: 60vw;
     height: 6vw;
     margin-left: 20vw;

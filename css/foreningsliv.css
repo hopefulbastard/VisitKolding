@@ -1,0 +1,175 @@
+@import url(global.css);
+@import url(nav.css);
+@import url(footer.css);
+
+header {
+  display: flex;
+  align-items: flex-end;
+  min-height: 560px;
+  background-image: url(../img/Billedmateriale/Foreningsliv/svømning.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+#headertext {
+  background-color: white;
+  color: black;
+  margin-left: 90px;
+  padding-left: 70px;
+  padding-right: 300px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 40px;
+}
+#text {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+#img-art-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(500px );
+  grid-template-areas:
+    "img1 art1"
+    "art2 img2"
+    "img3 art3"
+    "art4 img4"
+    "img5 art5"
+    "art6 img6"
+    "img7 art7"
+    "art8 img8"
+    "img9 art9"
+    "art10 img10"
+    "img11 art11";
+}
+
+#img-art-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#img1 {
+  grid-area: img1;
+}
+#art1 {
+  grid-area: art1;
+  padding: 80px 100px;
+  background-color: #441dac;
+  color: white;
+}
+
+#text1 {
+  display: block;
+}
+
+#img2 {
+  grid-area: img2;
+}
+#art2 {
+  grid-area: art2;
+  padding: 80px 100px;
+  background-color: #441dac;
+  color: white;
+}
+
+#img3 {
+    grid-area: img3;
+  }
+
+#art3 {
+    grid-area: art3;
+    padding: 80px 100px;
+    background-color: #441dac;
+    color: white;
+  }
+
+  #img4 {
+    grid-area: img4;
+  }
+
+#art4 {
+    grid-area: art4;
+    padding: 80px 100px;
+    background-color: #441dac;
+    color: white;
+  }
+
+  #img5 {
+    grid-area: img5;
+  }
+
+#art5 {
+    grid-area: art5;
+    padding: 80px 100px;
+    background-color: #441dac;
+    color: white;
+  }
+
+  #img6 {
+    grid-area: img6;
+  }
+
+#art6 {
+    grid-area: art6;
+    padding: 80px 100px;
+    background-color: #441dac;
+    color: white;
+  }
+
+  #img7 {
+    grid-area: img7;
+  }
+
+#art7 {
+    grid-area: art7;
+    padding: 80px 100px;
+    background-color: #441dac;
+    color: white;
+  }
+
+  #img8 {
+    grid-area: img8;
+  }
+
+#art8 {
+    grid-area: art8;
+    padding: 80px 100px;
+    background-color: #441dac;
+    color: white;
+  }
+
+  #img9 {
+    grid-area: img9;
+  }
+
+#art9 {
+    grid-area: art9;
+    padding: 80px 100px;
+    background-color: #441dac;
+    color: white;
+  }
+
+  #img10 {
+    grid-area: img10;
+  }
+
+#art10 {
+    grid-area: art10;
+    padding: 80px 100px;
+    background-color: #441dac;
+    color: white;
+  }
+
+  #img11 {
+    grid-area: img11;
+  }
+
+#art11 {
+    grid-area: art11;
+    padding: 80px 100px;
+    background-color: #441dac;
+    color: white;
+  }

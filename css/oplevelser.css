@@ -1,3 +1,4 @@
+
 img{
     padding: 0;
     width: 100%;
@@ -250,4 +251,8 @@ html {
     margin-top: 0vw;
   }
 
+
+@import url(global.css);
+@import url(nav.css);
+@import url(footer.css);
 

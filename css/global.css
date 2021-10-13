@@ -16,3 +16,8 @@ header{
 #img-art-grid article{
   padding-bottom: 80px;
 }
+
+a:hover{
+  opacity: .7;
+  transition: .2s ease-in-out;
+}

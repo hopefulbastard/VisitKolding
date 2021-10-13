@@ -138,8 +138,11 @@
 }
 
 #eventgrid img{
-    height: 100%;
+    height: 200px;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
     background-color: white;
 }
 
@@ -156,8 +159,13 @@
     text-align: center;
 }
 
+.eventboxtext{
+    padding: 20px 0px 0px;
+}
+
 .eventboxtext p{
-    padding: 18px 0px;
+    padding: 10px 0px;
+    padding-bottom: 30px;
 }
 
 #eventboxdate1{grid-area: eventboxdate1;}
@@ -236,10 +244,110 @@
 
 /* Media screen */
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 990px){
     /*Tablet*/
+
+    #indexgrid{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(6, 250px);
+        grid-template-areas: 
+        "indexgrid1 indexgrid1 indexgrid2"
+        "indexgrid1 indexgrid1 indexgrid3"
+        "indexgrid4 indexgrid5 indexgrid5"
+        "indexgrid4 indexgrid6 indexgrid7"
+        "indexgrid8 indexgrid8 indexgrid7"
+        "indexgrid9 indexgrid10 indexgrid10"
+        ;
+    }
+
+    #indexgrid p{
+        display: none;
+    }
+
+    #eventgrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "eventboximg1 eventboximg1 eventboximg1 eventboximg1"
+        "eventboxdate1 eventboxtext1 eventboxtext1 eventboxtext1"
+        "eventboximg2 eventboximg2 eventboximg2 eventboximg2"
+        "eventboxdate2 eventboxtext2 eventboxtext2 eventboxtext2"
+        "eventboximg3 eventboximg3 eventboximg3 eventboximg3"
+        "eventboxdate3 eventboxtext3 eventboxtext3 eventboxtext3";
+    }
+
+    #event h3{
+        text-align: center;
+    }
+
+    #udforskkolding{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "udforskkoldingbox" 
+        "udforskkoldinglinks";
+    }
+
+    #udforskkoldingbox{
+        width: 50%;
+    }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     /*Mobile*/
+
+    #indexgrid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(13, 250px);
+        grid-template-areas: 
+        "indexgrid1 indexgrid1"
+        "indexgrid1 indexgrid1"
+        "indexgrid2 indexgrid3"
+        "indexgrid4 indexgrid4"
+        "indexgrid4 indexgrid4"
+        "indexgrid5 indexgrid5"
+        "indexgrid6 indexgrid6"
+        "indexgrid6 indexgrid6"
+        "indexgrid7 indexgrid7"
+        "indexgrid7 indexgrid7"
+        "indexgrid8 indexgrid9"
+        "indexgrid10 indexgrid10"
+        "indexgrid10 indexgrid10"
+        ;
+    }
+
+    #eventgrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "eventboximg1"
+        "eventboxdate1"
+        "eventboxtext1"
+        "eventboximg2"
+        "eventboxdate2"
+        "eventboxtext2"
+        "eventboximg3"
+        "eventboxdate3"
+        "eventboxtext3";
+    }
+
+    .eventboxdate{
+        padding: 10px 0px;
+    }
+
+    .eventboxtext{
+        padding: 0px 0px;
+    }
+
+    #udforskkoldinglinks{
+        grid-area: udforskkoldinglinks;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "figure1 figure2 "
+        "figure3 figure4"
+        "figure5 figure6"
+        ;
+    }
 }

@@ -28,7 +28,7 @@ html {
   }
   
   .grid-containerexperience {
-      margin: 0 1vw;
+    margin: 0 1vw;
     display: grid;
     grid-template-areas: 'a a b b'
                          'c d e f';
@@ -39,7 +39,7 @@ html {
   
   .grid-containerexperience > div {
     transition: 500ms ease-in-out;
-      position: relative;
+    position: relative;
     background-color: rgba(153, 153, 153, 0.8);
     text-align: center;
     max-width: 50vw;
@@ -101,7 +101,7 @@ html {
   }
   
   .grid-containercategories {
-      margin: 0 1vw;
+    margin: 0 1vw;
     display: grid;
     grid-template-areas: "h j k l m n";
                          grid-column: 25% 25% 25% 25%;
@@ -194,25 +194,29 @@ html {
     width: 1fr;
     text-align: center;
     font-size: 30px;
-    margin-top: 5vw;
+    margin-top: 2.2vw;
+    padding-left: 1.5vw;
+    padding-right: 2.5vw;
   }
 
   .grid-containerlist > div > h2 {
    color: rgb(0, 0, 0);
    text-align: left;
+   padding-left: 0vw;
+   margin-top: 0vw;
   }
 
   .grid-containerlist > div > article > h3 {
     color: rgb(0, 0, 0);
     margin: 0;
-    margin-top: 2vw;
+    margin-top: 0vw;
     font-size: 3.5vw;
     text-align: center;
     padding: 0;
    }
 
    .grid-containerlist > div > article > p {
-     position: absolute;
+    position: absolute;
     color: rgb(0, 0, 0);
     margin: 0;
     font-size: 2vw;
@@ -224,12 +228,15 @@ html {
    .grid-containerlist > div > ol{
     position: absolute;
     bottom: 0;
+    list-style: none;
+    margin-top: 0vw;
   }
 
   .grid-containerlist > div > ol > li {
     margin-top: 1.2vw;
     color: rgb(61, 61, 61);
     text-align: left;
+    
   }
 
   .grid-containerlist > div > ol > li:hover {
@@ -239,6 +246,8 @@ html {
   }
 
   .grid-containerlist > div > article > p {
+    text-align: center;
+    margin-top: 0vw;
   }
 
 

@@ -4,9 +4,228 @@
 
 /* <!-- IMG GRID --> */
 
+#indexgrid{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px 250px;
+    gap: 20px;
+    grid-template-areas: 
+    "indexgrid1 indexgrid1 indexgrid2 indexgrid3 indexgrid3"
+    "indexgrid1 indexgrid1 indexgrid4 indexgrid5 indexgrid5"
+    "indexgrid6 indexgrid7 indexgrid7 indexgrid5 indexgrid5"
+    "indexgrid6 indexgrid8 indexgrid9 indexgrid9 indexgrid10"
+    ;
+}
+
+.indexgrid{
+    position: relative;
+}
+
+.indexgridtext{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+}
+
+#indexgrid a{
+    text-decoration: none;
+}
+
+#indexgrid h2{
+    color: white;
+    padding: 0px;
+    font-size: 25px;
+}
+
+#indexgrid2 h2, #indexgrid4 h2, #indexgrid8 h2, #indexgrid10 h2{
+    font-size: 18px;
+} 
+
+#indexgrid p{
+    color: white;
+    font-size: 20px;
+}
+
+#indexgrid2 p, #indexgrid4 p, #indexgrid8 p, #indexgrid10 p{
+    font-size: 15px;
+} 
+
+.indexgrid{
+    background-position: center top;
+    background-size: cover;
+}
+
+.indexgrid:hover{
+    background-image: url("");
+    opacity: .5;
+    transition: .3s ease-in-out;
+}
+
+#indexgrid1{
+    grid-area: indexgrid1;
+    background-image: url(../img/Billedmateriale/designskolen.jpg);
+    background-position-y: center;
+}
+
+#indexgrid2{
+    grid-area: indexgrid2;
+    background-image: url(../img/Billedmateriale/havn_træskib.jpg);
+    background-position-y: center;
+}
+#indexgrid3{
+    grid-area: indexgrid3;
+    background-image: url(../img/Billedmateriale/grafiskbygning.jpg);
+    background-position-y: center;
+
+}
+#indexgrid4{
+    grid-area: indexgrid4;
+    background-image: url(../img/Billedmateriale/geografiskhave2.jpg);
+}
+#indexgrid5{
+    grid-area: indexgrid5;
+    background-image: url(../img/Billedmateriale/ntteliv.jpg);
+}
+#indexgrid6{
+    grid-area: indexgrid6;
+    background-image: url(../img/Billedmateriale/cafe2.jpg);
+}
+#indexgrid7{
+    grid-area: indexgrid7;
+    background-image: url(../img/Billedmateriale/Foreningsliv/svømning.jpg);   
+    background-position-y: center;
+}
+#indexgrid8{
+    grid-area: indexgrid8;
+    background-image: url(../img/Billedmateriale/lystbådhavn2.jpg);
+}
+#indexgrid9{
+    grid-area: indexgrid9;
+    background-image: url(../img/Billedmateriale/torv.jpg);
+    background-position-y: center;
+}
+#indexgrid10{
+    grid-area: indexgrid10;
+    background-image: url(../img/Billedmateriale/trafik.jpg);
+}
+
 /* <!-- IMG GRID --> */
 
 /* <!-- EVENTS --> */
+#event{
+    padding: 25px;
+    background-color: #4F14A0;
+    color: white;
+}
+
+#event h3{
+    font-size: 45px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+#eventgrid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-areas: 
+    "eventboxdate1 eventboxtext1 eventboximg1"
+    "eventboxdate2 eventboxtext2 eventboximg2"
+    "eventboxdate3 eventboxtext3 eventboximg3";
+}
+
+#eventgrid img{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#eventgrid h4{
+    font-size: 60px;    
+}
+
+#eventgrid h5{
+    font-size: 20px;
+}
+
+.eventboxdate{
+    padding: 25px;
+    text-align: center;
+}
+
+.eventboxtext p{
+    padding: 18px 0px;
+}
+
+#eventboxdate1{grid-area: eventboxdate1;}
+#eventboxtext1{grid-area: eventboxtext1;}
+#eventboximg1{grid-area: eventboximg1;}
+
+#eventboxdate2{grid-area: eventboxdate2;}
+#eventboxtext2{grid-area: eventboxtext2;}
+#eventboximg2{grid-area: eventboximg2;}
+
+#eventboxdate3{grid-area: eventboxdate3;}
+#eventboxtext3{grid-area: eventboxtext3;}
+#eventboximg3{grid-area: eventboximg3;}
+
+#udforskkolding{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "udforskkoldingbox udforskkoldinglinks";
+}
+
+#udforskkoldingbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    grid-area: udforskkoldingbox;
+    padding: 50px;
+}
+
+#udforskkoldinglinks{
+    grid-area: udforskkoldinglinks;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "figure1 figure2 figure3"
+    "figure4 figure5 figure6"
+    ;
+    gap: 25px;
+    padding: 30px;
+}
+
+#udforskkoldinglinks figure{
+    height: 100%;
+    width: 100%;
+    background-size: center cover;
+    text-align: center;
+}
+
+#udforskkolding img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#udforskkolding img:hover{
+    opacity: .5;
+    transition: .3s ease-in-out;
+}
+
+#udforskkolding h3{
+    padding: 25px;
+}
+
+#figure1{grid-area: figure1;}
+#figure2{grid-area: figure2;}
+#figure3{grid-area: figure3;}
+#figure4{grid-area: figure4;}
+#figure5{grid-area: figure5;}
+#figure6{grid-area: figure6;}
 
 /* <!-- EVENTS --> */
 

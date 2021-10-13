@@ -1,3 +1,4 @@
+
 img{
     padding: 0;
     width: 100%;
@@ -241,4 +242,8 @@ html {
   .grid-containerlist > div > article > p {
   }
 
+
+@import url(global.css);
+@import url(nav.css);
+@import url(footer.css);
 

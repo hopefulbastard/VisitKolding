@@ -1,6 +1,10 @@
+/*Import CSS start*/
+
 @import url(global.css);
 @import url(nav.css);
 @import url(footer.css);
+
+/*Import CSS end*/
 
 /*Header start*/
 
@@ -106,6 +110,7 @@ header {
   #img-art-grid article:nth-of-type(2n-1){
     background-color: white !important;
     color: black !important; 
+    /*Laver hver anden artikel i grid sort tekst med hvid baggrund. Important er brugt for at override det mere specifikke article tag.*/
   }
 }
 

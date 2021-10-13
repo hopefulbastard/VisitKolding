@@ -1,6 +1,12 @@
+/*Import CSS start*/
+
 @import url(global.css);
 @import url(nav.css);
 @import url(footer.css);
+
+/*Import CSS end*/
+
+/*Header CSS start*/
 
 header {
   display: flex;
@@ -26,6 +32,10 @@ header {
   margin-top: 40px;
   margin-bottom: 50px;
 }
+
+/*Header CSS end*/
+
+/*Grid CSS start*/
 
 #img-art-grid {
   display: grid;
@@ -70,6 +80,10 @@ header {
   color: white;
 }
 
+/*En lignende effekt kunne være lavet med #img-art-grid article i stedet for at have css flere gange*/
+
+/*Grid CSS end*/
+
 /*Media screen start*/
 
 @media screen and (max-width: 990px) {
@@ -100,6 +114,7 @@ header {
     background-color: white !important;
     color: black !important; 
   }
+  /*Laver hver anden artikel i grid sort tekst med hvid baggrund. Important er brugt for at override det mere specifikke article tag.*/
 }
 
 @media screen and (max-width: 600px) {

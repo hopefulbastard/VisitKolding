@@ -41,6 +41,7 @@
 }
 
 @media screen and (min-width: 990px) {
+    /*ændrer skrift størrelse i desktop view*/
     #indexgrid2 h2, #indexgrid4 h2, #indexgrid8 h2, #indexgrid10 h2{
         font-size: 18px;
     } 
@@ -357,3 +358,5 @@
         ;
     }
 }
+
+/*Media screen end*/

@@ -1,6 +1,12 @@
+/*Import CSS start*/
+
 @import url(global.css);
 @import url(nav.css);
 @import url(footer.css);
+
+/*Import CSS end*/
+
+/*Header CSS start*/
 
 header {
   display: flex;
@@ -27,6 +33,10 @@ header {
   margin-top: 40px;
   margin-bottom: 50px;
 }
+
+/*Header CSS end*/
+
+/*Gris CSS start*/
 
 #grid {
     color: white;
@@ -73,6 +83,10 @@ header {
   grid-area: img2;
 }
 
+/*Grid CSS end*/
+
+/*Text CSS start*/
+
 #textsection{
     padding: 50px;
     gap: 25px;
@@ -97,6 +111,10 @@ header {
 #textsection p{
     padding: 10px 0px;
 }
+
+/*Text CSS end*/
+
+/*Media screen start*/
 
 @media screen and (min-width: 990px) {
   #img2{
@@ -175,3 +193,5 @@ header {
 }
   
 }
+
+/*Media screen end*/

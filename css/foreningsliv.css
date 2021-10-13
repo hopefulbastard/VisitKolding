@@ -1,6 +1,12 @@
+/*Import CSS start*/
+
 @import url(global.css);
 @import url(nav.css);
 @import url(footer.css);
+
+/*Import CSS end*/
+
+/*Header start*/
 
 header {
   display: flex;
@@ -26,6 +32,10 @@ header {
   margin-top: 40px;
   margin-bottom: 50px;
 }
+
+/*Header end*/
+
+/*Grid start*/
 
 #img-art-grid {
   display: grid;
@@ -174,7 +184,9 @@ header {
     color: white;
   }
 
-  /*Media screen start*/
+/*Grid end*/
+
+/*Media screen start*/
 
 @media screen and (max-width: 990px) {
   

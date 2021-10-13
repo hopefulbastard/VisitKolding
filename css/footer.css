@@ -1,6 +1,8 @@
 footer {
     width: 100%;
   }
+
+  /*Øverste del af footer med social media navigations links start*/
   
   #footertop {
     height: 300px;
@@ -31,6 +33,10 @@ footer {
     font-size: 45px;
     color: ivory;
   }
+
+    /*Øverste del af footer med social media navigations links end*/
+
+    /*Nederste del af footer med div links start*/
   
   #footerbot {
     color: white;
@@ -87,9 +93,9 @@ footer {
       color: white;
   }
 
-  #footerlinks a:hover{
-    color: rgba(255, 255, 255, 0.8);
-  }
+  /*Nederste del af footer end*/
+
+  /*Copyright og andet div start*/
   
   #copyrt {
       display: flex;
@@ -117,6 +123,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
   }
+
+  /*Copyright og andet div end*/
+
+  /*Media screen start*/
 
   @media screen and (max-width: 990px) {
     #footertop{
@@ -159,6 +169,7 @@ footer {
   }
 
   @media screen and (max-width: 525px) {
+    /*ekstra break tilføjet pga problemer med links*/
     #footersocials{
       text-align: center;
       display: grid;
@@ -169,3 +180,5 @@ footer {
       gap: 20px;
     }    
   }
+
+  /*Media screen end*/
